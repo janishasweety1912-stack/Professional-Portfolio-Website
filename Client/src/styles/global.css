@@ -1,0 +1,14 @@
+body{
+    background:var(--background);
+    color:var(--text);
+}
+
+section{
+    padding:90px 8%;
+}
+
+.container{
+    width:90%;
+    max-width:1300px;
+    margin:auto;
+}

@@ -1,0 +1,21 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.no-projects {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.no-projects h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: var(--heading-color);
+}
+
+.no-projects p {
+    color: var(--text-color);
+    opacity: 0.8;
+}

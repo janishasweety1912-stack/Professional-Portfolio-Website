@@ -1,0 +1,31 @@
+.loader-container{
+    position:fixed;
+    inset:0;
+    background:#0b0f1a;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.loader-circle{
+    width:70px;
+    height:70px;
+    border:5px solid rgba(212,175,55,.25);
+    border-top:5px solid #d4af37;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+.loader-text{
+    margin-top:20px;
+    color:#d4af37;
+    letter-spacing:3px;
+}
+
+@keyframes spin{
+    to{
+        transform:rotate(360deg);
+    }
+}
